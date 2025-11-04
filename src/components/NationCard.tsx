@@ -20,7 +20,7 @@ const NationCard = ({ nation, flag, color, tanks, mechanics }: NationCardProps) 
     <Card className="bg-card hover:bg-card/80 transition-all duration-300 border-2 hover:border-gold/50 hover:shadow-lg hover:shadow-gold/20">
       <CardHeader>
         <div className="flex items-center gap-3 mb-4">
-          <img src={flag} alt={`Bandeira ${nation}`} className="w-16 h-10 object-cover rounded shadow-md" />
+          <span className="text-4xl">{flag}</span>
           <CardTitle className="text-2xl font-bold" style={{ color }}>{nation}</CardTitle>
         </div>
         <div className="space-y-2">
