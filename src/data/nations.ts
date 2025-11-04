@@ -1,7 +1,19 @@
+import russiaFlag from "@/assets/flags/russia.jpg";
+import germanyFlag from "@/assets/flags/germany.jpg";
+import usaFlag from "@/assets/flags/usa.jpg";
+import chinaFlag from "@/assets/flags/china.jpg";
+import ukFlag from "@/assets/flags/uk.jpg";
+import franceFlag from "@/assets/flags/france.jpg";
+import japanFlag from "@/assets/flags/japan.jpg";
+import swedenFlag from "@/assets/flags/sweden.jpg";
+import polandFlag from "@/assets/flags/poland.jpg";
+import italyFlag from "@/assets/flags/italy.jpg";
+import czechoslovakiaFlag from "@/assets/flags/czechoslovakia.jpg";
+
 export const nations = [
   {
     nation: "URSS",
-    flag: "🇷🇺",
+    flag: russiaFlag,
     color: "#DC143C",
     mechanics: ["Blindagem Pesada", "Alto Dano Alfa", "Canhões Potentes"],
     tanks: [
@@ -14,7 +26,7 @@ export const nations = [
   },
   {
     nation: "Alemanha",
-    flag: "🇩🇪",
+    flag: germanyFlag,
     color: "#FFD700",
     mechanics: ["Precisão Excepcional", "Blindagem Frontal", "Engenharia Avançada"],
     tanks: [
@@ -27,7 +39,7 @@ export const nations = [
   },
   {
     nation: "EUA",
-    flag: "🇺🇸",
+    flag: usaFlag,
     color: "#3C3B6E",
     mechanics: ["Gun Depression", "Torrões Fortes", "Versatilidade"],
     tanks: [
@@ -40,7 +52,7 @@ export const nations = [
   },
   {
     nation: "China",
-    flag: "🇨🇳",
+    flag: chinaFlag,
     color: "#DE2910",
     mechanics: ["Híbrido Soviético-Ocidental", "Alto Dano Alfa", "Blindagem Confiável"],
     tanks: [
@@ -53,7 +65,7 @@ export const nations = [
   },
   {
     nation: "Reino Unido",
-    flag: "🇬🇧",
+    flag: ukFlag,
     color: "#012169",
     mechanics: ["HESH Shells", "Precisão", "Torrões Fortes"],
     tanks: [
@@ -66,7 +78,7 @@ export const nations = [
   },
   {
     nation: "França",
-    flag: "🇫🇷",
+    flag: franceFlag,
     color: "#0055A4",
     mechanics: ["Autoloader", "Mobilidade", "Burst Damage"],
     tanks: [
@@ -79,7 +91,7 @@ export const nations = [
   },
   {
     nation: "Japão",
-    flag: "🇯🇵",
+    flag: japanFlag,
     color: "#BC002D",
     mechanics: ["Gun Depression", "Precisão", "Blindagem de Torrão"],
     tanks: [
@@ -92,7 +104,7 @@ export const nations = [
   },
   {
     nation: "Suécia",
-    flag: "🇸🇪",
+    flag: swedenFlag,
     color: "#006AA7",
     mechanics: ["Siege Mode", "Hydropneumatic", "Autoloader"],
     tanks: [
@@ -105,7 +117,7 @@ export const nations = [
   },
   {
     nation: "Polônia",
-    flag: "🇵🇱",
+    flag: polandFlag,
     color: "#DC143C",
     mechanics: ["Reverse Speed", "Burst Autoloader", "Mobilidade"],
     tanks: [
@@ -116,7 +128,7 @@ export const nations = [
   },
   {
     nation: "Itália",
-    flag: "🇮🇹",
+    flag: italyFlag,
     color: "#009246",
     mechanics: ["Autoreloader", "Mobilidade", "Gun Depression"],
     tanks: [
@@ -127,7 +139,7 @@ export const nations = [
   },
   {
     nation: "Checoslováquia",
-    flag: "🇨🇿",
+    flag: czechoslovakiaFlag,
     color: "#11457E",
     mechanics: ["Autoloader", "Gun Depression", "Suporte"],
     tanks: [
